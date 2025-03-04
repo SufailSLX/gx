@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container1{
+    background-color:rgb(236, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(112, 38, 4);
+    /* padding-bottom: 60px;
+    padding-left: 50px; */
+    padding: 30px;
+    font-size: 20px;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    
+    
+    gap: 25px;
+    
+}
+.text1 .text2{
+    display: flex;
+    margin-left: 200px;
+    padding-right: 120px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+    
+    
+}
+.container2{
+    display: flex;
+    color: rgb(112, 38, 4);
+    justify-content: right;
+    margin-left: 12px;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    font-size: 20px;
+    /* padding-top: 11px; */
+    margin-top: -70px;
+    
+    
+}
+.container2:hover{
+    /* background-color: #e02466; */
+
+}
+.textimg{
+    background-image: url('https://www.galaxychocolate.co.in/cdn-cgi/image/width=1440,height=580,f=auto,quality=90/sites/g/files/fnmzdf1911/files/2021-10/396000232_Galaxy_HP_Hero_3000x1286px.jpg');
+    height: 500px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  color: white;
+  
+    
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+    
+}
+    
+.backcolur {
+    background-color: #502c1c;
+    text-align: center;
+    font-size: 3rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(250, 248, 248);
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.backcolur img {
+    width: 500px; 
+    animation: upDown 2s infinite ease-in-out;
+}
+
+
+@keyframes upDown {
+    0% { transform: translateY(0); }  
+    50% { transform: translateY(-20px); }  
+    100% { transform: translateY(0); }  
+}
+
+
+.t1, .t2{
+    font-size: 23px;
+    
+
+}
+.png1{
+    padding-left: 120px;
+    padding-top: -200px;
+    
+    
+}
+
+.backcolur2{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 3,100px;
+    grid-template-rows: 2,100px;
+    
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fdf5e6; 
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5a3215; 
+    margin-top: 20px;
+}
+.section{
+    /* width: 1250px; */
+    gap: 1;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 100px;
+    padding: 20px;
+    
+    margin: 0 auto;
+    
+}
+
+.grid-item {
+    
+    border-radius: 10px;
+    padding: 15px;
+    
+    text-align: center;
+    
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    font-size: 1.2rem;
+    color: #3d1c10;
+    margin-top: 10px;
+}
+
+.bigbar{
+    padding-right: 500px;
+    
+}
+.buttun1{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+
+    
+    
+}
+.gridbuttun1{
+    padding: 15px 15px;
+    border: none;
+    background-color: #e02466;
+    color: white;
+    border-radius: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3 ease;
+    
+}
+.gridbuttun1:hover{
+    background-color: white;
+    color: #e02466;
+
+}
+
+
+.dancing{
+ 
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  
+  }
+  .page4 {
+    position: relative; 
+  
+}
+
+.page4{
+    
+    margin-top: 380px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    background-image:url("https://www.galaxychocolate.co.in/cdn-cgi/image/width=1920,height=650,f=auto,quality=90/sites/g/files/fnmzdf1911/files/2021-02/Galaxy-about-header-16x9_0.jpg" )
+    
+    
+}
+
+.ABOUTUS {
+    position: absolute;
+    top: 15%; 
+    left: 52%; 
+    transform: translate(-69%, -400%);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.orgins{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  color: white;
+}
+.Discover{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    color: white;
+
+}
+
+
+.learn-more{
+    color:white ;
+    background-color: #e02466;
+    border: none;
+    border-radius: 100px;
+    margin-top: 90px;
+    cursor: pointer;
+    transition: 0.3s ease, 0.3 ease;
+    height: 50px;
+    width: 150px;
+    
+
+}
+.learn-more:hover{
+    background-color: white;
+    color: #e02466;
+}
+.sticimage{
+    padding-right: 10px;
+    padding-top: 200px;
+}
+
+.page5{
+    background-color: white;
+}
+
+
+.Discover-our-world {
+    height: auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(80, 44, 28);
+    margin-bottom: 30px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 50px; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.grid-container2 div {
+    
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container2 img {
+    width: 80%; 
+    height: 70%;
+    border-radius: 10px;
+    
+}
+
+.grid-container2 h3 {
+    font-size: 1.5rem;
+    color: rgb(80, 44, 28);
+    margin-top: 10px;
+}
+
+.grid-container2 p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.grid-button {
+    background-color: #e02466;
+    color: #f4f0f1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.grid-button:hover {
+    background-color: #f7f3f1;
+    color:#e02466 ;
+    
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 10000px; */
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+
+
+}
+.Visit-Us-on-Social{
+    margin-top: 15px;
+}
+.grid-item{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.smallimg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    
+}
+
+.footer {
+    background-color: #f5f5f5; 
+    padding: 100px 0;
+    text-align: center;
+    padding-bottom: 200px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.footer-logo img {
+    width: 150px; 
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    padding-right: 500px;
+    
+    
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #4a2d1f; 
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #a05a2c; 
+}
+.support1{
+    padding-top: 100px;
+}
+
+.last{
+    background-color: #4a2d1f;
+    color: white;
+}
+.paralast{
+    display: grid;
+    margin-top: 110px;
+    text-align: left;
+    
+}
+.last{
+    display: grid;
+    padding-left: 260px;
+    padding-bottom: 20px;
+}
+.iconmain{
+    text-align: start;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+
+
+    
+    
+}
+.the-end{
+    background-color: #4a2d1f;
+    color: white;
+    text-align: start;
+    padding-top: 40px;
+}
+.end-text{
+    /* padding-right: 700px; */
+    
+}
+.mars{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.buttunlast{
+    color:white ;
+    background-color: #4a2d1f;
+    /* border:white; */
+    border: 2px solid white;
+    border-radius: 100px;
+    /* margin-top: px; */
+    cursor: pointer;
+    transition: 0.3s ease, 0.3 ease;
+    height: 50px;
+    width: 150px;
+    
+}
+
+.buttunlast:hover{
+    background-color: white;
+    border: none;
+    color: #e02466;
+
+}
+
+.aytum1{
+    margin-top: 50px;
+    width: 190px;
+    /* display: grid; */
+    line-height: 30px;
+    /* display: flex; */
+    
+    
+}
+.promo-banner {
+    background-color: #502c1c;
+    padding: 70px;
+    text-align: start;
+    border-radius: 8px;
+    
+}
+
+.cta-button {
+    background-color: #e02466;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    /* transition: 0.3s ease, 0.3 ease; */
+    
+}
+.cta-button:hover {
+    background-color: #f6f1f3;
+    color: #e02466;
+}
+
+.title-main{
+    
+    
+}
